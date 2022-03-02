@@ -23,7 +23,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-vng$sqpwfpk%6vj7_xdi$q7xp=#43wtb2oktu%kic&%bbpfxgo'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['apirugmo-website.herokuapp.com', '127.0.0.1']
 
@@ -48,7 +48,7 @@ INSTALLED_APPS = [
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:8080",
-    "https://rugmo-website.herokuapp.com/"
+    "https://rugmo-website.herokuapp.com"
 ]
 
 MIDDLEWARE = [
