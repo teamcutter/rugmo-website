@@ -1,0 +1,1 @@
+web: gunicorn rugmo_website.wsgi --log -file -
