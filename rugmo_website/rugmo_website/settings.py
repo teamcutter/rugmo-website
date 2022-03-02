@@ -48,7 +48,7 @@ INSTALLED_APPS = [
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:8080",
-    #"https://rugmo-website.herokuapp.com"
+    "https://rugmo-website.herokuapp.com"
 ]
 
 MIDDLEWARE = [
