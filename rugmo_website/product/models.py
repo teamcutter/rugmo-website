@@ -55,7 +55,7 @@ class Product(models.Model):
                 self.thumbnail = self.make_thumbnail(self.image)
                 self.save()
 
-                return 'https://apirugmo-website.herokuapp.com' + self.thumbnail.url
+                return 'https://apirugmo-website.herokuapp.com:443' + self.thumbnail.url
             else:
                 return '' 
     
