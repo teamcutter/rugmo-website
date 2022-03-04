@@ -136,7 +136,7 @@ USE_TZ = True
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 STATIC_URL = '/static/'
 
-MEDIA_URL = 'https://apirugmo-website.herokuapp.com/media/'
+MEDIA_URL = '/media/'
 
 STATICFILES_DIRS = [ 
     os.path.join(BASE_DIR, 'static'),
