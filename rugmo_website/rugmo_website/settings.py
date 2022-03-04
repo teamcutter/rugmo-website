@@ -47,6 +47,7 @@ INSTALLED_APPS = [
     'product'
 ]
 
+CORS_ORIGIN_ALLOW_ALL = True
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:8080",
     "https://rugmo-website.herokuapp.com"
